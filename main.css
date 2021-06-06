@@ -16,7 +16,7 @@ main {
 
 nav {
   width: 100vw;
-  background-color: #1e6f5c;
+  background-color: #6f12e7;
   width: 100%;
   font-family: "ABeeZee", sans-serif;
 }
@@ -49,7 +49,7 @@ a.brand {
 /* card */
 .card {
   border: 0.1rem #c0c0c0 solid;
-  background-color: #91c4b6;
+  background-color: #6e12e7a2;
   border-radius: 0, 5rem;
   margin: 1rem;
 }
@@ -61,8 +61,14 @@ a.brand {
   margin-bottom: 0.5rem;
 }
 
+.card-body a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .price {
   font-size: 2rem;
+  color: #fff;
 }
 
 /* rating */
@@ -73,7 +79,7 @@ a.brand {
 
 .nav2 {
   width: 100vw;
-  background-color: #289672;
+  background-color: #6e12e7a2;
   padding: 1rem;
 }
 
@@ -84,7 +90,7 @@ footer {
   text-align: center;
 }
 .footer {
-  background-color: #1e6f5c;
+  background-color: #6f12e7;
   position: fixed;
   bottom: 0;
   width: 100vw;
@@ -192,7 +198,7 @@ footer {
   width: max-content;
   padding: 1rem;
 
-  background: #197253;
+  background: #6e12e7a2;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */

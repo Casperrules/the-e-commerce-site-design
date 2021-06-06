@@ -10,6 +10,7 @@ main {
   align-items: center;
   grid-area: main;
   padding: 1rem;
+  margin: 1rem;
 }
 
 nav {

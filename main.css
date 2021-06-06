@@ -80,7 +80,8 @@ a.brand {
 .nav2 {
   width: 100vw;
   background-color: #6e12e7a2;
-  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 
 /* footer */
@@ -101,7 +102,7 @@ footer {
 #menuToggle {
   display: block;
   position: relative;
-
+  margin: 0 1rem;
   z-index: 1;
 
   -webkit-user-select: none;
@@ -126,7 +127,7 @@ footer {
   position: absolute;
   top: -7px;
   left: -5px;
-
+  margin-right: 0.7rem;
   cursor: pointer;
 
   opacity: 0; /* hide this */
@@ -140,11 +141,10 @@ footer {
  */
 #menuToggle span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 2.0625rem;
+  height: 0.25rem;
+  margin-bottom: 0.3125rem;
   position: relative;
-
   background: #ffffff;
   border-radius: 3px;
 

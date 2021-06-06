@@ -187,9 +187,9 @@ footer {
  */
 #menu {
   position: absolute;
-  width: 12rem;
-  padding: 5rem;
-  padding-left: 12rem;
+  width: max-content;
+  padding: 1rem;
+
   background: #197253;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -202,8 +202,8 @@ footer {
 }
 
 #menu li {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 1rem 0;
+  font-size: 2rem;
 }
 
 /*
